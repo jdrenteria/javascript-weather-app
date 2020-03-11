@@ -1,13 +1,44 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="./style.css">
-     </head>
 
-     <body>
+<head>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div id="searchContainer">
+        <input type="text" placeholder="City Name or Zipcode" id="searchInput">
+        <button class="searchControl" id="searchBtn">Search</button>
+    </div>
+    <div id="weatherContainer">
+        <div id="weatherDescription">
+            <h1 id="cityHeader"></h1>
+            <div id="weatherMain">
+                <div id="temperature">
+                    <div id="weatherDescriptionHeader">
+                        <div>
+                            <img id="documentIconImg">
+                        </div>
+                        <hr>
+                        <div id="windSpeed" class="bottomDetails">
+
+                        </div>
+                        <div id="humidity" class="buttomDetails">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 
 
 
 
-        <script src="/script.js"></script>
-     </body>
+    <script src="/script.js"></script>
+</body>
+
 </html>
